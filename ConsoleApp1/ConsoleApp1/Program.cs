@@ -57,8 +57,22 @@ namespace ConsoleApp1
             //while (i <= 5);
 
             //Задание 4. С использованием цветового оформления консоли:
-            //а) вывести на экран горизонтальную строку из 18 символов;
-            
+            //Console.BackgroundColor = ConsoleColor.White;
+            //Console.ForegroundColor = ConsoleColor.Black;
+            //а) вывести на экран горизонтальную строку из 18 символов
+            //Console.Write("Введите символ: ");
+            //string symbol = Console.ReadLine();
+            //for(int i =  0; i < 18; i++)
+            //{
+            //    Console.Write(symbol);
+            //}
+            //б) вывести на экран вертикальную строку из 25 символов
+            //Console.Write("Введите символ: ");
+            //string symbol = Console.ReadLine();
+            //for (int i = 0; i < 18; i++)
+            //{
+            //    Console.WriteLine(symbol);
+            //}
 
             Console.ReadKey();
         }
